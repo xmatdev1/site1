@@ -72,6 +72,14 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="DDL3rdParty\DirectShowLib-2005.dll" />
+    <Content Include="DDL3rdParty\MiraController.dll" />
+    <Content Include="DDL3rdParty\NationalIdCardSdk4NET.dll" />
+    <Content Include="DDL3rdParty\NHapi.Base.dll" />
+    <Content Include="DDL3rdParty\NHapi.Model.V23.dll" />
+    <Content Include="DDL3rdParty\NRtfTree.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
