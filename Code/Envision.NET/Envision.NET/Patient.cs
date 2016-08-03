@@ -5,7 +5,8 @@ using System.Text;
 
 namespace Envision.NET
 {
-    class Patient
+    public class Patient
     {
+        public int Id {get;set;}
     }
 }
